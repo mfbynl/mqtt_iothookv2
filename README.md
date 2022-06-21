@@ -4,4 +4,4 @@ Bu uygulamamızda da geçen uygulamada olduğu gibi mqtt publisherından gelen s
 dakikaya bağlı olarak ledi yakacak şekilde programlıyoruz. Geçen uygulamadan farkı ise
 delay yerine millis(); fonksiyonunu kullanıyor olmamız.
 
-[](https://prnt.sc/ISd88SqemSp7)
+[Link](https://prnt.sc/ISd88SqemSp7)

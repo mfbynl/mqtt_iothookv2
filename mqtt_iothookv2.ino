@@ -155,6 +155,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   //Bitti mesajı
   client.publish("nodemcu", "bitti");
   client.subscribe("nodemcu");
+  Serial.println("Döngü Bitti!");
 }
 
 void loop() {

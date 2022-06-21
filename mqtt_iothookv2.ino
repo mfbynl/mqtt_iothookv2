@@ -124,7 +124,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   Serial.println();
   Serial.println("-----------------------");
 
-  //Bitti mesajını göndermek için tekrardan bağlanıyoruz...
+  //Bitti mesajını göndermek için tekrardan bağlanıyoruz, tekrardan bağlanmak buglanmaların da önüne geçiyor...
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);

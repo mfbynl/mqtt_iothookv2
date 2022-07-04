@@ -8,8 +8,8 @@
 #include <PubSubClient.h>
 
 //Wifi ve mqtt server bilgilerini giriyoruz
-const char* ssid = "Mese";
-const char* password =  "MeseBilisim1303**";
+const char* ssid = "****";
+const char* password =  "****";
 const char* mqttServer = "iothook.com";
 const int mqttPort = 1883;
 const char* mqttUser = "publicmqttbroker";
